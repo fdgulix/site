@@ -9,27 +9,26 @@
     <header>
         <h1>Formulário do Candidato</h1>
 
-        <nav><!-- Seção de Navegação do Site.-->
-            <ul><!-- Lista não ordenada para links do nosso menu-->
-                <form action="">
+                    <form action="">
 
-                    <label for="Nome">Nome: </label>
-                    <input type="text" id="nome" name="nome" required> <br><br><br>
+                    <label form="Nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" required> <br>
                     
-                    <label for="Sobrenome">Sobrenome: </label>
-                    <input type="text" id="sobrenome" name="sobrenome" required> <br><br><br>
+                    <label form="Sobrenome">Sobrenome: </label>
+                    <input type="text" id="sobrenome" name="sobrenome" required> <br>
 
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" required> <br><br><br>
+                    <label form="email">Email: </label>
+                    <input type="email" id="email" name="email" required> <br>
 
-                    <label for="Nascimento"> Data de Nascimento: </label>
-                    <input type="date"> <br><br><br>
+                    <label form="Nascimento"> Data de Nascimento: </label>
+                    <input type="date"> <br>
 
-            </ul>
-        </nav>
+            
     </header>
 
-    <label for="Assunto"> Matéria Que Deseja Lecionar: </label>
+        <h1>Opção de Matérias</h1>
+        
+    <label form="Assunto"> Matéria Que Deseja Lecionar: </label>
     <select name="Assunto" id="Assunto">
         <option value="Matemática">Matemática</option>
         <option value="Português">Português</option>
@@ -39,10 +38,12 @@
         <option value="Geografia">Geografia</option>
         <option value="Artes">Artes</option>
     </select>
-    <br><br>
+    <br>
 
-    <label for="Turnosdisponiveis"> Turnos Disponiveis: </label>
-    <select name="Turnosdisponiveis" id="Turnosdisponiveis">
+        <h1>Turno Preferencial</h1>
+
+    <label form="Turnopreferencial"> Turnos Disponiveis: </label>
+    <select name="Turnopreferencial" id="Turnopreferencial">
         <option value="Matutino">Matutino</option>
         <option value="Vespertino">Vespertino</option>
         <option value="Noturno">Noturno</option>
@@ -50,7 +51,9 @@
     </select>
     <br><br>
 
-    <label for="Escolaridade"> Informe sua Escolaridade: </label>
+        <h1>Grau de Escolaridade</h1>
+
+    <label form="Escolaridade"> Informe sua Escolaridade: </label>
     <select name="Escolaridade" id="Escolaridade">
         <option value="Sup Completo">Ensino Superior Completo</option>
         <option value="Curs Mestrado">Cursando Mestrado</option>
@@ -60,8 +63,10 @@
     </select>
     <br><br><br>
     
+        <h1>Currículo</h1>
+
     <form action="">
-        <label for="Descrição"> Descrição Sobre Si Mesmo: </label>
+        <label form="Descrição"> Descrição Sobre Si Mesmo: </label>
         <textarea name="Descrição" id="Descrição" cols="25" rows="20" required></textarea>
     </form>
 </body>
